@@ -30,3 +30,5 @@ console.log(personaje.nombre);
 console.log(personaje2["nombre"]);
 
 delete personaje.anime;
+
+console.log("\n"+personaje.anime)
