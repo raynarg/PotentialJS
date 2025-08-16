@@ -23,7 +23,10 @@ let personaje = {
 let personaje2 = {
     nombre: "javier",       // Par llave - valor -> [nombre] : ["Javier"] -> llave es tambien conocida como propiedad.
     apellido: "santaolla",
-}
+};
 
 
 console.log(personaje.nombre);
+console.log(personaje2["nombre"]);
+
+delete personaje.anime;
